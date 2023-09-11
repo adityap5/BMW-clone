@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://bmw.scene7.com/is/image/BMW/bmw_neue-klasse_home-stage_teaser:16to9?fmt=webp&wid=2560&hei=1444);
+    background-image: wrap;
+}
