@@ -24,11 +24,18 @@ html,body{
     text-transform: capitalize;
     padding-left: 93px;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
 }
 .nav img{
     height: 55px;
 }
-.nav h3{
-   
+.navpart2{
+    display: flex;
+    gap: 30px;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
