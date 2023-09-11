@@ -12,6 +12,18 @@ html,body{
 .page1{
     height: 100%;
     width: 100%;
-    background-image: url(https://bmw.scene7.com/is/image/BMW/bmw_neue-klasse_home-stage_teaser:16to9?fmt=webp&wid=2560&hei=1444);
-    background-image: wrap;
+   background-image: url("https://bmw.scene7.com/is/image/BMW/bmw_neue-klasse_home-stage_teaser:16to9?fmt=webp&wid=2560&hei=1444");
+   background-size: cover;
+}
+.nav{
+    background-color: black;
+    height: 80px;
+    width:100%;
+    display: flex;
+    color: white;
+    text-transform: capitalize;
+}
+.nav h3{
+    align-items: center;
+    justify-content: center;
 }
