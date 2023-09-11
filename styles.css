@@ -22,8 +22,13 @@ html,body{
     display: flex;
     color: white;
     text-transform: capitalize;
+    padding-left: 93px;
+    align-items: center;
+    justify-content: left;
+}
+.nav img{
+    height: 55px;
 }
 .nav h3{
-    align-items: center;
-    justify-content: center;
+   
 }
