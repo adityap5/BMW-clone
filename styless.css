@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.container{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+   background-image: url("https://bmw.scene7.com/is/image/BMW/bmw_neue-klasse_vision_dsk_fb:16to7?fmt=webp&wid=2560&hei=1116");
+   background-size: cover;
+}
+.nav{
+    background-image: linear-gradient(180deg, rgba(48, 47, 47, 0.738),rgba(215, 215, 215, 0.056));
+    height: 80px;
+    width:100%;
+    display: flex;
+    color: white;
+    text-transform: capitalize;
+    padding-left: 93px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img{
+    height: 52px;
+}
+.navpart1{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-left: 4px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 2px;
+    font-size: 14px;
+   
+    font-weight: 900;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+
+}
+.navpart1:hover{
+    text-decoration: underline solid #1C69D4;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 2.2em ;
+   cursor: pointer;
+}
+.navpart2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    padding-left: 454px;
+    font-family: 'Titillium Web', sans-serif;
+
+    font-size: 16.5px;
+    font-weight: 600;
+
+}
+#line{
+    margin-top: 3px;
+    margin-left: 100px;
+    height: 1px ;
+    width: 86%;
+    background-color:white
+    
+}
+.heading{
+    width:40%;
+    left: 7%;
+    top: 12%;
+   
+    position: relative;
+}
+
+.heading h5{
+   color: white;
+   text-transform: uppercase;
+font-size: 13px;
+font-family: 'Titillium Web', sans-serif;
+word-spacing: 2px;
+letter-spacing: 2px;
+
+}
+.heading h2{
+    margin-top: -11px;
+    color: white;
+    text-transform: uppercase;
+ font-size: 68px;
+ font-family: 'Titillium Web', sans-serif;
+ word-spacing: 2px;
+ letter-spacing: 2px;
+ font-weight: 100;
+ }
+ .heading h4{
+    margin-top: -11px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: 500;
+ }
+ .heading button{
+    margin-top: 22px;
+border: none;
+    background-color: #1C69D4;
+    padding: 12px 37px;
+
+    color: white;
+    border-radius: 3px;
+ font-size: 18px;
+ font-family: 'Titillium Web', sans-serif;
+
+ 
+ font-weight: 900;
+ }
+ .heading button:hover{
+    background-color: #0653B6;
+    cursor: pointer;
+ }
