@@ -17,6 +17,7 @@ html,body{
    background-image: url("https://bmw.scene7.com/is/image/BMW/bmw_neue-klasse_home-stage_teaser:16to9?fmt=webp&wid=2560&hei=1444");
    background-size: cover;
 }
+
 .nav{
     background-image: linear-gradient(180deg, rgba(48, 47, 47, 0.738),rgba(215, 215, 215, 0.056));
     height: 80px;
@@ -140,6 +141,10 @@ border: none;
 
  
  font-weight: 900;
+ }
+ .heading button:hover{
+    background-color: #0653B6;
+    cursor: pointer;
  }
 .page2{
  height: 100%;
