@@ -49,8 +49,8 @@ html,body{
 }
 .navpart1:hover{
     text-decoration: underline solid #1C69D4;
-    text-decoration-thickness: 2px;
-   text-underline-position:
+    text-decoration-thickness: 4px;
+    text-underline-offset: 2.2em ;
    cursor: pointer;
 }
 .navpart2{
