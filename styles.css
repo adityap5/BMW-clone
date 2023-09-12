@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -29,9 +30,16 @@ html,body{
 .nav img{
     height: 55px;
 }
-.navpart2{
+.navpart1{
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-left: 4px;
+    font-family: 'Lato', sans-serif;
+    font-size:13.5px;
+    font-weight: 600;
+
 }
 
 .page2{
