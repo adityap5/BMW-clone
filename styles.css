@@ -175,7 +175,7 @@ a {
 .heading2 {
     width: 60%;
     left: 7%;
-    top: 82%;
+margin-top: 230px;
 
     position: relative;
 }
@@ -236,4 +236,30 @@ a {
 
 
     font-weight: 600;
+}
+.heading2 #btn1:hover {
+    background-color: #0653B6;
+    cursor: pointer;
+}
+.heading2 #btn2:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+.page3{
+    height: 112%;
+    width: 100%;
+}
+.page3 .shop{
+    margin-top: 102px;
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Titillium Web', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
