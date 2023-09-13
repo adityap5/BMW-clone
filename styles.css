@@ -175,7 +175,7 @@ a {
 .heading2 {
     width: 60%;
     left: 7%;
-margin-top: 230px;
+margin-top: 200px;
 
     position: relative;
 }
@@ -202,7 +202,7 @@ margin-top: 230px;
 }
 
 .heading2 h4 {
-
+margin-top: -10px;
     color: white;
     text-transform: uppercase;
     font-size: 25px;
@@ -212,13 +212,14 @@ margin-top: 230px;
     font-weight: 300;
 }
 .heading2 #btn1{
-    margin-top: 11px;
+
+    margin-top: 30px;
     border: none;
     background-color: #1C69D4;
-    padding:16px 30px;
+    padding:16px 38px;
     color: white;
     border-radius: 3px;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'Titillium Web', sans-serif;
 
 
@@ -250,7 +251,7 @@ margin-top: 230px;
     width: 100%;
 }
 .page3 .shop{
-    margin-top: 102px;
+    margin-top: 122px;
   color: #666666;
   display: flex;
   justify-content: center;
@@ -284,4 +285,37 @@ margin-top: 230px;
       letter-spacing: 2px;
       font-weight: 300;
       text-transform: uppercase;
+}
+.cont{
+    margin-top: 20px;
+    height: 40%;
+    width: 100%;
+    background-color:palegreen;
+    display: flex;
+    justify-content: center;
+}
+.cont .car1{
+    height: 338px;
+    width:400px;
+    background-color:lightcoral
+}
+.cont .car2{
+    height: 338px;
+    width:400px;
+    background-color:plum;
+}.cont .car3{
+    height: 338px;
+    width:400px;
+    background-color:burlywood;
+}
+.banner{
+    width: 100%;
+    height: 60%;
+    background-image: url( https://bmw.scene7.com/is/image/BMW/DI21_000048047:3to1?fmt=webp&wid=2560&hei=854);
+    background-size:contain;
+}
+.next{
+    height: 100%;
+    width: 100%;
+    background-color: #1C69D4;
 }
