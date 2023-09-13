@@ -255,11 +255,33 @@ margin-top: 230px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.page3 .shop h5{
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Titillium Web', sans-serif;
     word-spacing: 1px;
     letter-spacing: 2px;
-    font-weight: 400;
+    font-weight: 800;
     text-transform: uppercase;
+}
+
+.page3 .head {
+    margin-top: 2px;
+
+}
+.page3 .head h3 {
+    color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      text-transform: uppercase;
+      font-size: 55px;
+      font-family: 'Titillium Web', sans-serif;
+      word-spacing: 1px;
+      letter-spacing: 2px;
+      font-weight: 300;
+      text-transform: uppercase;
 }
