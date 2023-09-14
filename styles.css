@@ -438,6 +438,20 @@ a {
     width: 50%;
     background-color: #5a5a5a;
 }
+.do h6{
+    color: #666666;
+
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Titillium Web', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.do h3{
+    
+}
 .bottom{
     height: 50%;
     width: 100%;
