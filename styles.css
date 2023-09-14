@@ -8,7 +8,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-
 }
 
 .page1 {
@@ -36,7 +35,6 @@ body {
 }
 
 .navpart1 {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +43,6 @@ body {
     font-family: 'Titillium Web', sans-serif;
     margin-top: 2px;
     font-size: 14px;
-
     font-weight: 900;
     word-spacing: 1px;
     letter-spacing: 1px;
@@ -66,7 +63,6 @@ body {
     gap: 29px;
     padding-left: 454px;
     font-family: 'Titillium Web', sans-serif;
-
     font-size: 16.5px;
     font-weight: 600;
 
@@ -99,7 +95,6 @@ h4 span {
     width: 60%;
     left: 7%;
     top: 42%;
-
     position: relative;
 }
 
@@ -110,7 +105,6 @@ h4 span {
     font-family: 'Titillium Web', sans-serif;
     word-spacing: 2px;
     letter-spacing: 2px;
-
 }
 
 .heading h2 {
@@ -126,8 +120,6 @@ h4 span {
 
 .heading h4 {
     margin-top: -11px;
-
-
     color: white;
     text-transform: uppercase;
     font-size: 25px;
@@ -145,13 +137,10 @@ h4 span {
     padding-right: 54px;
     padding-top: 12px;
     padding-bottom: 12px;
-
     color: white;
     border-radius: 3px;
     font-size: 18px;
     font-family: 'Titillium Web', sans-serif;
-
-
     font-weight: 900;
 }
 
@@ -169,19 +158,16 @@ a {
 .page2 video {
     top: 550px;
     position: relative;
-
 }
 
 .heading2 {
     width: 60%;
     left: 7%;
-margin-top: 200px;
-
+    margin-top: 200px;
     position: relative;
 }
 
 .heading2 h5 {
-
     color: white;
     text-transform: uppercase;
     font-size: 15px;
@@ -198,11 +184,10 @@ margin-top: 200px;
     word-spacing: 2px;
     letter-spacing: 2px;
     font-weight: 100;
-
 }
 
 .heading2 h4 {
-margin-top: -10px;
+    margin-top: -10px;
     color: white;
     text-transform: uppercase;
     font-size: 25px;
@@ -211,55 +196,57 @@ margin-top: -10px;
     letter-spacing: 2px;
     font-weight: 300;
 }
-.heading2 #btn1{
+
+.heading2 #btn1 {
 
     margin-top: 30px;
     border: none;
     background-color: #1C69D4;
-    padding:16px 38px;
+    padding: 16px 38px;
     color: white;
     border-radius: 3px;
     font-size: 17px;
     font-family: 'Titillium Web', sans-serif;
-
-
     font-weight: 600;
 }
-.heading2 #btn2{
+
+.heading2 #btn2 {
     margin-top: 11px;
     border: 1px solid white;
     background-color: transparent;
-    padding:16px 50px;
+    padding: 16px 50px;
     color: white;
     border-radius: 3px;
     font-size: 16px;
     font-family: 'Titillium Web', sans-serif;
-
-
     font-weight: 600;
 }
+
 .heading2 #btn1:hover {
     background-color: #0653B6;
     cursor: pointer;
 }
+
 .heading2 #btn2:hover {
     border: 2px solid white;
     cursor: pointer;
 }
-.page3{
+
+.page3 {
     height: 112%;
     width: 100%;
 }
-.page3 .shop{
+
+.page3 .shop {
     margin-top: 122px;
-  color: #666666;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.page3 .shop h5{
+.page3 .shop h5 {
     text-transform: uppercase;
     font-size: 17px;
     font-family: 'Titillium Web', sans-serif;
@@ -271,50 +258,130 @@ margin-top: -10px;
 
 .page3 .head {
     margin-top: 2px;
-
 }
+
 .page3 .head h3 {
     color: #404040;
     display: flex;
     justify-content: center;
     align-items: center;
-      text-transform: uppercase;
-      font-size: 55px;
-      font-family: 'Titillium Web', sans-serif;
-      word-spacing: 1px;
-      letter-spacing: 2px;
-      font-weight: 300;
-      text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-family: 'Titillium Web', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
-.cont{
-    margin-top: 20px;
+
+.cont {
+    margin-top: -37px;
     height: 40%;
     width: 100%;
-    background-color:palegreen;
     display: flex;
     justify-content: center;
 }
-.cont .car1{
-    height: 338px;
-    width:400px;
-    background-color:lightcoral
+
+.cont .car1 img {
+    margin-top: 20px;
+    height: 50%;
 }
-.cont .car2{
-    height: 338px;
-    width:400px;
-    background-color:plum;
-}.cont .car3{
-    height: 338px;
-    width:400px;
-    background-color:burlywood;
+
+.car1 h6 {
+    position: relative;
+    margin-top: -12px;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: 'Titillium Web', sans-serif;
+    left: 32%;
+    word-spacing: 1px;
+
 }
-.banner{
+
+.car1 button {
+    position: relative;
+    margin-top: 31px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 16px 20px;
+    color: black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    left: 34%;
+}
+
+.cont .car2 img {
+    margin-top: 20px;
+    height: 50%;
+}
+.car2 h6 {
+    position: relative;
+    margin-top: -12px;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: 'Titillium Web', sans-serif;
+    left: 30%;
+    word-spacing: 1px;
+
+}
+
+.car2 button {
+    position: relative;
+    margin-top: 31px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 16px 20px;
+    color: black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    left: 30%;
+}
+
+.cont .car3 img {
+    margin-top: 20px;
+    height: 50%;
+}
+.car3 h6 {
+    position: relative;
+    margin-top: -12px;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: 'Titillium Web', sans-serif;
+    left: 33%;
+    word-spacing: 1px;
+
+}
+
+.car3 button {
+    position: relative;
+    margin-top: 31px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 16px 22px;
+    color: black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    left: 32%;
+}
+.cont button:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.banner {
     width: 100%;
     height: 60%;
-    background-image: url( https://bmw.scene7.com/is/image/BMW/DI21_000048047:3to1?fmt=webp&wid=2560&hei=854);
-    background-size:contain;
+    background-image: url(https://bmw.scene7.com/is/image/BMW/DI21_000048047:3to1?fmt=webp&wid=2560&hei=854);
+    background-size: contain;
 }
-.next{
+
+.next {
     height: 100%;
     width: 100%;
     background-color: #1C69D4;
