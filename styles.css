@@ -412,8 +412,51 @@ a {
     border: 2px solid white;
     cursor: pointer;
 }
-.next {
+.page4{
     height: 100%;
     width: 100%;
+}
+.upper{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.ek {
+    height: 100%;
+    width: 50%;
     background-color: #1C69D4;
+}
+.ek img{
+    top: 20px;
+    position: relative;
+    height: 87%;
+    width: 86%;
+    left: 95px;
+}
+.do {
+    height: 100%;
+    width: 50%;
+    background-color: #5a5a5a;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.teen{
+    height: 100%;
+    width: 50%;
+    background-color:gold;
+}
+.teen img{
+    top: 20px;
+    position: relative;
+    height: 87%;
+    width: 86%;
+    left: 95px;
+}
+.char {
+    height: 100%;
+    width: 50%;
+    background-color: forestgreen;
 }
