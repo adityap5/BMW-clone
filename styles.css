@@ -353,6 +353,7 @@ a {
     font-family: 'Titillium Web', sans-serif;
     left: 33%;
     word-spacing: 1px;
+    width: 40%;
 
 }
 
@@ -380,7 +381,37 @@ a {
     background-image: url(https://bmw.scene7.com/is/image/BMW/DI21_000048047:3to1?fmt=webp&wid=2560&hei=854);
     background-size: contain;
 }
-
+.banner h3{
+    width: 70%;
+    position: relative;
+    margin-top: -10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 52px;
+    font-family: 'Titillium Web', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    left: 6%;
+    top:145px;
+}
+.banner button{
+   position: relative;
+   top: 30%;
+   left: 6%;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 16px 121px;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.banner button:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
 .next {
     height: 100%;
     width: 100%;
